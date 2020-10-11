@@ -9,8 +9,8 @@ data class CinemaSearchItemModel (
     @SerializedName("Year")
     val year : String,
     val imdbID : String,
-    @SerializedName("Type ")
+    @SerializedName("Type")
     val type : String,
-    @SerializedName("Poster ")
+    @SerializedName("Poster")
     val poster : String
 )
